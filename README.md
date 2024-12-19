@@ -63,6 +63,14 @@ Board Representation: The game board is a 6x7 grid.
 Winning Conditions: The game checks for horizontal, vertical, and diagonal connections of four pieces of the same player.
 AI Move Selection: The computer uses a simple strategy to block the human player's winning moves and chooses a random move when no blocking is needed.
 
+# Running Tests
+
+You can run the tests by executing the following command in the terminal:
+```
+python -m unittest test.py
+
+```
+
 # Files
 
 board.py: Contains functions related to the board, such as creating and printing the board.
